@@ -84,7 +84,7 @@ const Playlist = () => {
   return (
     <div className="playlist">
       <Link to="/" className="go-home"><Home/></Link>
-      <div className="cardlist">
+      <div className="playlist-cards">
         {playlists.slice(sequence.minValue, sequence.maxValue).map((item) => {
           return (
             <Card

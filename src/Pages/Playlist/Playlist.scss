@@ -1,7 +1,15 @@
 @import "../../styles/styles.scss";
 
 .playlist {
-
+  .playlist-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    padding: 3rem 4rem;
+  }
   .go-home{
     position: fixed;
     left: -12rem;

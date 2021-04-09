@@ -9,15 +9,21 @@ import { ReactComponent as Audio } from "assets/audio.svg";
 
 import "./MusicPlayer.scss";
 
-
-const MusicPlayer = ({ imageUrl, artistName, musicName, musicUrl, duration, isPlaying }) => {
+const MusicPlayer = ({
+  imageUrl,
+  artistName,
+  musicName,
+  musicUrl,
+  duration,
+  isPlaying = true,
+}) => {
   const [state, setState] = useState({
-    playing: isPlaying,
-    played: 0 ,
+    playing: true,
+    played: 0,
     seeking: false,
     loop: false,
     volume: 0.9,
-    duration:0 ,
+    duration: 0,
   });
 
 
@@ -35,7 +41,6 @@ const MusicPlayer = ({ imageUrl, artistName, musicName, musicUrl, duration, isPl
   };
 
   const handleSeekChange = (e) => {
-    console.log(parseFloat(e.target.value))
     setState({ ...state, played: parseFloat(e.target.value) });
   };
   const handleSeekVolumeChange = (e) => {

@@ -37,7 +37,7 @@ const Card = ({ index, image, name, id, forPlaylist, onClick = () => {} }) => {
       ) : (
         <>
           <img className="image" src={image} alt="" />
-          <p className="card-name">{name.substring(0, 30)}</p>
+          <p className="card-name">{name.substring(0, 20)}</p>
         </>
       )}
     </div>
