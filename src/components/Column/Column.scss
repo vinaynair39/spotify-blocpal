@@ -1,0 +1,15 @@
+.column{
+  position: relative;
+  display: grid;
+  grid-template-rows: 10vh 80vh;
+  justify-items: center;
+  align-items: center;
+  height: 90vh;
+  .title{
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+  }
+}

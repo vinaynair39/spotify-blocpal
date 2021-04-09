@@ -1,0 +1,33 @@
+@import '../../styles/styles.scss';
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  .gif {
+    width: 16vw;
+    height: 18vw;
+    border-radius: 100%;
+  }
+  .title{
+    color: $pink;
+    font-family: 'Train One', cursive;
+    font-size: 10vh;
+  }
+
+  .login-button{
+    margin-top: 4rem;
+    padding:  1rem 2rem;
+    background-color: $pink;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      transform: scale(1.1);
+      background-color: lighten($pink, 10%);
+    }
+    &:active{
+      transform: scale(0.9);
+    }
+  }
+}

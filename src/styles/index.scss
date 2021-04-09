@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+button,
+a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  list-style: none;
+  background: none;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0b0c21;
+  color: white;
+}
+
+:root {
+  --amplify-primary-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
