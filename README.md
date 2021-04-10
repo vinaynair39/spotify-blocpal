@@ -1,4 +1,4 @@
-# Myntra-Clone (Assignment by BlocPal)
+# Spotify Playlist(Assignment by BlocPal)
 
 ## Libraries Used: React & Redux.
 
