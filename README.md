@@ -1,4 +1,5 @@
-# Spotify Playlist(Assignment by BlocPal)
+# Spotify Playlist(Assignment by BlocPal) [Check the app](https://spotify-blockpal.netlify.app/)
+
 
 ## Libraries Used: React & Redux.
 
